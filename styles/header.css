@@ -1,0 +1,53 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 40px 0;
+    top: 0;
+    left: 0;
+    border-bottom: solid 3px var(--primary-color);
+    position: sticky;
+}
+.header > .container {
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-image {
+    width: 120px;
+}
+ul {
+    gap: 50px;
+    display: flex;
+}
+.category {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+.category:hover {
+    color: var(--text-color);
+}
+.active {
+    color: var(--text-color);
+}
+.sign-btn, .register-btn {
+    border: 3px solid var(--primary-color);
+    cursor: pointer;
+    transition: 0.5s all;
+    font-size: 16px;
+}
+.sign-btn {
+    color: var(--primary-color);
+}
+.sign-btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.register-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.register-btn:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}

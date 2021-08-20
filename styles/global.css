@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: var(--text-color);
+    font-family: 'Uni Sans Regular';
+    transition: all 0.3s;
+}
+body {
+    max-width: 1540px;
+    min-width: 1500px;
+}
+.btn {
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    margin: 0 150px;
+    width: 80%;
+}
